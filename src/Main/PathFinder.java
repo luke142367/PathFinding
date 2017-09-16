@@ -314,7 +314,7 @@ public class PathFinder {
     }
 
     public void mouseClicked(MouseEvent e) {
-        if(!Calculating) {
+        if(!Calculating && !Menu) {
             int x = e.getX();
             int TileX = getTileX(x);
             int y = e.getY();
@@ -344,7 +344,7 @@ public class PathFinder {
     }
 
     public void mouseDragged(MouseEvent e) {
-        if(!Calculating) {
+        if(!Calculating && !Menu) {
             int x = e.getX();
             int TileX = getTileX(x);
             int y = e.getY();
