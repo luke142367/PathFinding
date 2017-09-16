@@ -12,7 +12,7 @@ public class Panel extends JPanel implements Runnable, MouseListener, MouseMotio
     private BufferedImage image;
     private Main main;
     private int Width = 800,Height = 800;
-    private int targetTps = 800;
+    private int targetTps = 80;
     private boolean running = false;
     private Graphics2D g;
     private Thread thread;
@@ -131,6 +131,9 @@ public class Panel extends JPanel implements Runnable, MouseListener, MouseMotio
         }
         if(e.getKeyCode() == KeyEvent.VK_BACK_SPACE){
             pathFinder.Init();
+        }
+        if(e.getKeyCode() == KeyEvent.VK_M){
+            pathFinder.Menu();
         }
     }
 

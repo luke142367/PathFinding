@@ -413,4 +413,8 @@ public class PathFinder {
         Initialized = false;
         Printed = false;
     }
+
+    public void Menu() {
+        Menu = true;
+    }
 }
