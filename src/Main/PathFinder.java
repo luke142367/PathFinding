@@ -34,7 +34,7 @@ public class PathFinder {
     private boolean Initialized = false;
     private boolean Finished = false;
     private int FinalTile;
-    private int HeuristicNumber = 10;
+    private int HeuristicNumber = 9;
     private boolean Menu = true;
     private Font TitleFont = new Font("Arial", Font.PLAIN, 80);
     private Font OtherFont = new Font("Arial", Font.PLAIN, 50);
